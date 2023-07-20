@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.profile {
+    background-color: #383333;
+    color: linen;
+    text-align: center;
+    width: 40vw;
+    position: sticky;
+    max-width: 40vw;
+    top: 0;
+    border-radius: 10%;
+    padding: 1rem 0;
+    margin: 2rem 1rem;
+    box-shadow: black 0 0 10px;
+    font-family: 'Nunito', sans-serif;
+}
+.name_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.name_title:first-child{
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+
+}
+.profession p{
+    font-size: 0.7rem;
+    word-wrap: break-word;
+    margin: 0;
+    padding: 0;
+
+}
+.profession{
+    margin-left: 6rem;
+}
+
+
+.profile img {
+    width: 15rem;
+    margin: 0 auto;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    box-shadow: #313131 5px 0 10px;
+
+}
+
+br {
+    height: 150vh;
+}
+
+span {
+    height: 1000px;
+}
