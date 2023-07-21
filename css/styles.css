@@ -29,9 +29,8 @@ header{
     max-width: 40vw;
     position: fixed;
 
-
     top: 50%;
-    transform: translateY(-80%);
+    transform: translateY(-85%);
 
     border-radius: 5%;
     padding: 0.5rem 0.2rem;
@@ -74,7 +73,6 @@ header{
 
 }
 
-
 .profile img {
     width: 15rem;
     height: 15rem;
@@ -103,7 +101,6 @@ header{
     font-weight: bold;
     margin: 10px 0;
 }
-
 
 .profile .contacts-wrapper {
     display: flex;
@@ -156,6 +153,10 @@ header {
 nav {
     position: fixed;
     margin-top: 0;
+    top: 50%;
+    transform: translateY(-40%);
+    right: 0;
+    margin-right: 1rem;
 }
 
 nav a {
@@ -167,7 +168,7 @@ nav a {
 }
 
 nav li {
-    padding: 0 1rem;
+    padding: 0.5rem 1rem;
     margin: 0;
     list-style: none;
 }
@@ -183,10 +184,10 @@ nav a:hover {
 nav ul {
     display: flex;
     flex-direction: column;
-    border: 1px solid var(--secondary-color);
     padding: 24px 0;
     gap: 20px;
     text-align: center;
+    box-shadow: black 0 0 10px;
     border-radius: 30px;
 }
 
@@ -203,9 +204,9 @@ nav ul {
         max-width: 100vw;
         width: calc(100% - 2rem);
         min-width: 360px;
-        margin: 1rem 1rem 0 1rem;
+        margin: 4rem 1rem 0 1rem;
         top: 0;
-        transform: translateY(0);
+        transform: translateY(-7%);
         order: 1;
     }
 
@@ -218,13 +219,15 @@ nav ul {
         margin: 1rem 0;
         order: 2;
     }
-    nav ul{
-        margin-left: 1rem;
-    }
     nav ul {
         flex-direction: row;
         justify-content: center;
+        margin-left: 1rem;
 
+    }
+    nav li{
+        margin: 0 0.5rem;
+        padding: 0 1rem;
     }
 
 }
