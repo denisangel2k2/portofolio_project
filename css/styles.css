@@ -191,12 +191,34 @@ nav ul {
     border-radius: 30px;
 }
 
-
+.about{
+    margin: 10rem 10rem 10rem 25rem;
+    padding: 0 1rem;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: clamp(1.1rem,1.1rem,4rem);
+    line-height: 1.5rem;
+    font-family: 'Manrope', sans-serif;
+    color: linen;
+}
+.about h1{
+    font-size: clamp(1.25rem,4rem,4rem);
+    font-weight: bold;
+}
+.about span{
+    color: var(--primary-color);
+}
+/*Mobile Responsive Settings*/
 @media (max-width: 700px) {
+    .about{
+        display: block;
+        margin: 0;
+    }
     header{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-bottom: 0;
     }
     .profile {
         position: static;
@@ -216,7 +238,7 @@ nav ul {
         flex-direction: column;
         width: calc(100% - 2rem);
         min-width: 360px;
-        margin: 1rem 0;
+        margin: 1.9rem 0 0 0;
         order: 2;
     }
     nav ul {
@@ -229,5 +251,5 @@ nav ul {
         margin: 0 0.5rem;
         padding: 0 1rem;
     }
-
 }
+
