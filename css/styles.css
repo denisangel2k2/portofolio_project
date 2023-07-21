@@ -208,6 +208,19 @@ nav ul {
 .about span{
     color: var(--primary-color);
 }
+.section_icon{
+    display: inline-flex;
+    border-radius: 13px;
+    padding: 0 0.5rem;
+    border: 1px solid var(--secondary-color);
+}
+.section_icon h4{
+    margin: 0;
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
 /*Mobile Responsive Settings*/
 @media (max-width: 700px) {
     .about{
