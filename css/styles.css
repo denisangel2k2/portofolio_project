@@ -30,7 +30,7 @@ header{
     position: fixed;
 
     top: 50%;
-    transform: translateY(-85%);
+    transform: translateY(-95%);
 
     border-radius: 5%;
     padding: 0.5rem 0.2rem;
@@ -60,7 +60,7 @@ header{
 }
 
 .profile .profession p {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     word-wrap: break-word;
     margin: 0;
     padding: 0;
@@ -154,7 +154,7 @@ nav {
     position: fixed;
     margin-top: 0;
     top: 50%;
-    transform: translateY(-40%);
+    transform: translateY(-65%);
     right: 0;
     margin-right: 1rem;
 }
