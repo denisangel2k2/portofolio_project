@@ -84,7 +84,8 @@ header{
 
 }
 
-.profile .theme-btn {
+
+.profile .theme-btn, .download_btn {
     text-decoration: none;
     background-color: var(--primary-color);
     color: black;
@@ -101,7 +102,11 @@ header{
     font-weight: bold;
     margin: 10px 0;
 }
+.download_btn{
 
+    padding: 5px 48px 5px 48px;
+
+}
 .profile .contacts-wrapper {
     display: flex;
     justify-content: center;
@@ -191,8 +196,8 @@ nav ul {
     border-radius: 30px;
 }
 
-.about{
-    margin: 10rem 10rem 10rem 25rem;
+.main_content{
+    margin: 10rem 10rem 45rem 25rem;
     padding: 0 1rem;
     text-align: justify;
     text-justify: inter-word;
@@ -201,11 +206,11 @@ nav ul {
     font-family: 'Manrope', sans-serif;
     color: linen;
 }
-.about h1{
+.main_content h1{
     font-size: clamp(1.25rem,4rem,4rem);
     font-weight: bold;
 }
-.about span{
+.main_content span{
     color: var(--primary-color);
 }
 .section_icon{
@@ -221,9 +226,14 @@ nav ul {
     font-weight: bold;
     color: var(--secondary-color);
 }
+
 /*Mobile Responsive Settings*/
 @media (max-width: 700px) {
-    .about{
+    .main_content h1{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    .main_content{
         display: block;
         margin: 0;
     }

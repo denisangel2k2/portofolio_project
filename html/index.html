@@ -33,34 +33,81 @@
                 <i class="fa-brands fa-instagram"></i>
             </div>
 
-            <a href="#" class="theme-btn">Contact me!</a>
+            <a href="#contact" class="theme-btn">Contact me!</a>
 
 
         </div>
         <nav>
             <ul>
-                <li><a href="#" data-tooltip="Home"><i class="fa-solid fa-house"></i></a></li>
-                <li><a href="#" data-tooltip="About"><i class="fa-solid fa-user"></i></a></li>
-                <li><a href="#" data-tooltip="Resume"><i class="fa-solid fa-briefcase"></i></a></li>
-                <li><a href="#" data-tooltip="Services"><i class="fa-solid fa-book"></i></a></li>
-                <li><a href="#" data-tooltip="Contact"><i class="fa-solid fa-envelope"></i></a></li>
+                <li><a href="#about" data-tooltip="Home"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#about" data-tooltip="About"><i class="fa-solid fa-user"></i></a></li>
+                <li><a href="#cv" data-tooltip="Resume"><i class="fa-solid fa-briefcase"></i></a></li>
+                <li><a href="#contact" data-tooltip="Contact"><i class="fa-solid fa-envelope"></i></a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="about">
-            <div class="about-wrapper">
+        <section class="main_content" id="about">
+
                 <div class="about-text">
 
                     <h1>Hello, I am <span>Denis</span>!</h1>
-                    <div class="section_icon">
+                    <div class="section_icon" >
 
                         <h4><i class="fa-solid fa-user"></i> About me</h4>
                     </div>
                     <p>I am a student at the Babes-Bolyai University of Cluj-Napoca, Faculty of Mathematics and Computer Science, in the 3rd year. I am passionate about programming and I am always looking to learn new things.</p>
                     <p>Also, I am a Software Developer Intern at BitStone.</p>
                 </div>
+
+        </section>
+        <section class="main_content" id="cv">
+            <div class="cv-text">
+                <div class="section_icon">
+                    <h4><i class="fa-solid fa-briefcase"></i> Resume</h4>
+
+                </div>
+                <ul>
+
+                    <li>Education:</li>
+                    <ul>
+                        <li>"Moise Nicoara" National College</li>
+                        <li>"Babes-Bolyai" University</li>
+                    </ul>
+                    <li>
+                        Work experience:
+                        <ul>
+                            <li>Software Developer Intern at BitStone</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p>Download pdf:</p>
+                <a href="#" download="" class="download_btn" >Download</a>
+
+            </div>
+        </section>
+        <section class="main_content" id="contact">
+            <div class="contact-text">
+                <div class="section_icon">
+                    <h4><i class="fa-solid fa-envelope"></i> Contact me</h4>
+
+            </div>
+                <form action="mailto:denismoldovan1gmail.com" method="post" class="">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="mail">
+                    </div>
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+                    <input type="submit" value="Submit">
+                </form>
             </div>
         </section>
 
