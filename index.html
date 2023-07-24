@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Nunito:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -23,14 +23,14 @@
                 </div>
             </div>
 
-            <img src="../assets/images/profile.png" alt="Handsome man">
+            <img src="assets/images/profile.png" alt="Handsome man">
             <p id="email">denismoldovan1@gmail.com</p>
             <p id="location">Base in Cluj-Napoca, RO</p>
 
             <div class="contacts-wrapper">
-                <i class="fa-brands fa-github"></i>
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-brands fa-instagram"></i>
+                <a href="https://github.com/denisangel2k2"><i class="fa-brands fa-github"></i></a>
+                <a href="https://ro.linkedin.com/in/denis-moldovan-25075622a?trk=public_profile_samename-profile"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/justdenis399/"><i class="fa-brands fa-instagram"></i></a>
             </div>
 
             <a href="#contact" class="theme-btn">Contact me!</a>
@@ -81,9 +81,31 @@
                             <li>Software Developer Intern at BitStone</li>
                         </ul>
                     </li>
+                    <li>
+                        Skills:
+                        <ul>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>C++</li>
+                            <li>C#</li>
+                            <li>JavaScript</li>
+                            <li>SQL</li>
+                            <li>Git</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Languages:
+                        <ul>
+                            <li>Romanian - Mother Tongue</li>
+                            <li>English - Advanced Speaker</li>
+                        </ul>
+                    </li>
+
                 </ul>
                 <p>Download pdf:</p>
-                <a href="#" download="" class="download_btn" >Download</a>
+                <a href="/assets/downloads/cv.pdf" download class="download_btn" >Download</a>
 
             </div>
         </section>
@@ -93,20 +115,23 @@
                     <h4><i class="fa-solid fa-envelope"></i> Contact me</h4>
 
             </div>
-                <form action="mailto:denismoldovan1gmail.com" method="post" class="">
+                <form action="mailto:denismoldovan1gmail.com" method="post" class="contact-form">
                     <div>
                         <label for="name">Name:</label>
+                        <br>
                         <input type="text" name="name" id="name">
                     </div>
                     <div>
                         <label for="email">Email:</label>
+                        <br>
                         <input type="email" name="email" id="mail">
                     </div>
                     <div>
                         <label for="message">Message:</label>
+                        <br>
                         <textarea name="message" id="message"></textarea>
                     </div>
-                    <input type="submit" value="Submit">
+                    <input type="submit" value="Submit" id="send-message-btn">
                 </form>
             </div>
         </section>
